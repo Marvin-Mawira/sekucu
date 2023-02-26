@@ -44,3 +44,10 @@
 .image-box img{
     width: 100%;
 }
+
+@media (min-width: 600px){
+    .gallery-page {
+        max-width: 1000px;
+        margin: auto;
+    }
+}

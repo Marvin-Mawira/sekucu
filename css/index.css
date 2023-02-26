@@ -212,13 +212,10 @@ on click direct to gallery
         height: 90vh;
         cursor:auto;
     }
-    .last-half{
-        display: flex;
-    }
     #program{
-        flex-basis: 30%;
-    }
-    #contact{
-        flex-basis: 50%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-around;
     }
 }
